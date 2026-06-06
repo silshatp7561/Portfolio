@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="sm:h-screen h-[120vh] w-full bg-white flex flex-col sm:flex-row">
+        <div class="sm:w-[50%] w-full h-[60vh] sm:h-screen flex justify-center items-center">
+            <div class="sm:w-[313px] w-[200px] sm:h-[600px] h-[300px] flex flex-col">
+                <div class="sm:text-4xl text-2xl ext-center ">WELCOME BACK</div>
+                <div class="sm:mt-5 mt-0 text-md text-grey-100 text-center">Welcome back! Please enter your details. </div>
+                <div class="sm:text-xl text-[16px] bg-black-100 justify-start sm:mt-8 mt-2 ">Email</div>
+                <input type="text" class="w-full h-[40px] sm:mt-2 mt-1 rounded-lg border-2 border-gray-500 outline-none"
+                    placeholder="Enter your Email">
+                <div class="sm:text-xl text-[16px] bg-black-100 justify-start sm:mt-8 mt-2">Password</div>
+                <input type="text" class="w-full h-[40px] sm:mt-2 mt-0 rounded-lg border-2 border-gray-500 outline-none"
+                    placeholder="********">
+                <div class="sm:text-md text-xs bg-black-100 flex justify-end sm:mt-2 mt-0">forgot password?</div>
+                <button
+                    class="w-full h-[40px] mt-2 rounded-lg text-sky-50 text-md border-none bg-red-500 hover:bg-red-700 outline-none">Sign
+                    in
+                </button>
+                <button
+                    class="w-full h-[40px] sm:mt-3 mt-1 rounded-lg text-stone-950 text-md flex justify-center items-center font-bold border-2 border-gray-500 bg-sky-50 hover:bg-sky-100 outline-none">
+                    Sign in With Google
+                </button>
+                <span class="flex flex-row mt-2 sm:text-[13px] text-[9px] justify-center">Don’t have an account?<p
+                        class="text-red-500"> Sign up fo free!</p></span>
+            </div>
+        </div>
+
+        <div class="sm:w-[50%] w-full h-[60vh] sm:h-screen ">
+            <img src="image.png " class="object-cover">
+        </div>
+    </div>
+
+</body>
+
+</html>
