@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.sa {
+    width: 50%;
+    height: 100vh;
+}
+
+.sb {
+    width: 50%;
+    height: 100vh;
+    background-color: #E5E5E5;
+}
+
+.cover {
+    object-fit: cover;
+    margin-top: 88px;
+}
+
+.coverdiv {
+    width: 100%;
+    height: 78%;
+}
+
+.homediv {
+    width: 100%;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.hometext {
+    word-spacing: 66px;
+    margin-top: 95px;
+    font-size: 22px;
+    color: gray;
+
+}
+
+.digitally {
+    margin-top: 59px;
+    margin-left: 81px;
+    color: #3751FE;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.art {
+    margin-top: 59px;
+    margin-left: 81px;
+    color: #3751FE;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.welcome {
+    margin-top: 33px;
+    margin-left: 81px;
+    color: gray;
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+.input-container {
+    margin-top: 26px;
+    margin-left: 82px;
+    font-size: 24px;
+    color: purple;
+}
+
+.input-container input {
+    width: 414px;
+    height: 26px;
+    font-size: 15px;
+    border-radius: 9px;
+    padding: 10px;
+    background-color: #E5E5E5;
+    border: none;
+    outline: none;
+}
+
+.forgot {
+    margin-top: 10px;
+    margin-left: 385px;
+    color: grey;
+}
+
+.signup {
+    width: 97px;
+    height: 40px;
+    color: blue;
+    background: white;
+    margin-top: 40px;
+    margin-left: 30px;
+    outline: none;
+    border-radius: 6px;
+}
+
+.login {
+    width: 97px;
+    height: 40px;
+    color: white;
+    background: blue;
+    outline: none;
+    border: none;
+    margin-top: 40px;
+    margin-left: 84px;
+    border-radius: 6px;
+}
+
+.login:hover {
+    background-color: rgb(105, 105, 199);
+}
+
+.login:active {
+    background-color: rgb(34, 34, 94);
+}
+
+.signup:hover {
+    background-color: #E5E5E5;
+}
+
+.last {
+    margin-top: 56px;
+    margin-left: 76px;
+    color: grey;
+}
+
+.app {
+    color: blue;
+    word-spacing: 51px;
+    margin-left: 43px;
+}
