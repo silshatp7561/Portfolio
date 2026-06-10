@@ -1,0 +1,93 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    height:100vh;
+    width:100%;
+
+}
+.top{
+    display:flex;
+    height:40px;
+    width: 100%;
+    background-color:rgb(219, 193, 193);
+}
+.left{
+    height:40px;
+    width:50%;
+    display:flex;
+    justify-content:center;
+    
+   
+}
+.left  h2{
+    font-family: sans-serif;
+    font-size:20px;
+
+}
+.box{
+    font-family: sans-serif;
+    font-size:15px;
+}
+.right{
+ height:40px;
+    width:50%;
+    display:flex;
+    justify-content:flex-start; 
+    margin-top:10px;  
+    gap:30px;
+}
+.bottom{
+     width:100%;
+     min-height:calc(100vh - 40px);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+     background-image: url("harry.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.hero{
+    margin-bottom: 20px;
+    color:aliceblue;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.main{
+    margin-bottom:20px;
+}
+.main h1{
+    font-size: 60px;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+.lorem{
+    display:flex;
+    justify-content: center;
+    width:600px;
+    text-align: center;
+    color: aliceblue;
+}
+.work{
+    margin-top:30px;
+}
+.work button{
+    width:200px;
+    height: 40px;
+    border-radius:20px;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    border:none;
+    background-color: rgb(245, 177, 89);
+    cursor:pointer;
+    
+}
+.work button:active{
+    transform:translatey(3px);
+    background-color:rgb(200, 116, 7);
+}
